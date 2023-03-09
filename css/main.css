@@ -5,7 +5,7 @@ body {
 
 /* rule to apply properties to img elements */
 img {
-  width: 100%;
+  width: 40%;
   border-radius: 5px;
   opacity: 0.8;
   filter: grayscale(50%);
