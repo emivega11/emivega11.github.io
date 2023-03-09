@@ -1,20 +1,32 @@
 /* rule to apply a background color to each page */
-body {
-  background-color: light-pink;
-}
-
-/* rule to apply properties to img elements */
-img {
-  width: 100%;
-  border-radius: 5px;
-  opacity: 0.8;
-  filter: grayscale(50%);
-}
-
-/* rule to apply properties to h1 elements */
-h1 {
-  color: #333;
-  font-size: 2rem;
-  font-weight: bold;
-  text-decoration: underline;
-}
+@font-face 
+    {
+      font-family: UNCTitle;
+      src: url('css/fonts/Aleo.ttf');
+    }
+    @font-face 
+    {
+      font-family: UNCText;
+      src: url('css/fonts/OpenSans.ttf');
+    }
+    *
+    {
+      font-family: UNCText;
+    }
+    h1
+    {
+      font-family: UNCTitle;
+      color: var(--UNC-Blue);
+      font-size: 8vw;
+    }
+    h2
+    {
+      font-family: UNCTitle;
+      color: #FFB6C1;
+      font-size: 32pt;
+    }
+    p
+    {
+      font-family: UNCText;
+      color: #C71585;
+    }
