@@ -10,7 +10,7 @@ body
 }
 *
 {
-    color: light-pink;
+    color: var(--UNC-Gold);
     text-align: center;
 }
 h1
@@ -20,11 +20,11 @@ h1
 }
 nav
 {
-    border: 3px var(light-pink) solid;
+    border: 3px var(--UNC-Gold) solid;
 }
 section
 {
-    border: 3px var(--UNC-Blue) solid;
+    border: 3px var(--UNC-Gray) solid;
     margin: 5px;
 }
 .date
