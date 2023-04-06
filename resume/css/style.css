@@ -6,12 +6,12 @@ h1
 {
     text-align: center;
     color: rgb(26, 16, 16);
-    font-size: 48pt;
+    font-size: 23pt;
 }
 section h2
 {
     margin: 5px;
-    font-size: 28pt;
+    font-size: 12pt;
 }
 section
 {
@@ -32,7 +32,7 @@ ul
 }
 nav a
 {   
-    font-size: 20pt;
+    font-size: 12pt;
     font-weight: bold;
     color:rgb(51, 173, 173)
 }
@@ -46,5 +46,5 @@ nav a
 }
 img
 {
-    border-radius: 50%;
+    border-radius: 35%;
 }
