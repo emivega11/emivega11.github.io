@@ -1,0 +1,50 @@
+body
+{
+    background-color: light-pink);
+}
+h1
+{
+    text-align: center;
+    color: rgb(26, 16, 16);
+    font-size: 48pt;
+}
+section h2
+{
+    margin: 5px;
+    font-size: 28pt;
+}
+section
+{
+    border: 3px solid pink;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px;
+    clear: both;
+}
+ul
+{
+    font-size: 18pt;
+}
+.date
+{
+    color: teal;
+    float: right;
+}
+nav a
+{   
+    font-size: 20pt;
+    font-weight: bold;
+    color:rgb(51, 173, 173)
+}
+#experience li
+{
+    border-bottom: 2px solid teal
+}
+#education h3
+{
+    border-bottom: 2px solid teal
+}
+img
+{
+    border-radius: 50%;
+}
