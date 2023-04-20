@@ -1,42 +1,116 @@
-:root
-{
-  --UNC-Gold: #f6b000;
-  --UNC-Gold: #f6b000;
-  --UNC-Gray: #8a8a8d;
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
 }
-body
-{
-    background-color: light-blue;
+
+a {
+    color: #00529B;
+    text-decoration: none;
 }
-*
-{
-    color: black;
-    text-align: center;
+
+a:hover {
+    text-decoration: underline;
 }
-h1
-{
-    text-align: center;
-    font-size: calc(12pt + 4vw);
+
+header {
+    background-color: #00529B;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
-nav
-{
-    border: 3px var(--UNC-Gray) solid;
+
+h1 {
+    font-size: 36px;
+    margin: 0;
 }
-section
-{
-    border: 3px var(--UNC-Gray) solid;
-    margin: 5px;
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
-.date
-{
-    color: var(--UNC-Gray);
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
 }
-li
-{
-    display: block;
+
+nav ul li:first-child {
+    margin-left: 0;
 }
-img
-{
-  width: 100px; 
-  Height: 100px; 
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Styles specific to the marketing club website */
+section:nth-of-type(odd) {
+    background-color: #F5F5F5;
+}
+
+section:nth-of-type(even) {
+    background-color: white;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Blue and gold colors for the marketing club */
+header {
+    background-color: #00529B;
+}
+
+a {
+    color: #00529B;
+}
+
+a:hover {
+    color: #FDB813;
+}
+
+section {
+    color: #333333;
+}
+
+section:nth-of-type(odd) {
+    background-color: #F5F5F5;
+}
+
+section:nth-of-type(even) {
+    background-color: #FFFFFF;
+}
+
+/* White color for the body and main sections */
+body {
+    background-color: #FFFFFF;
+}
+
+main {
+    background-color: #FFFFFF;
 }
