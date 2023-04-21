@@ -16,7 +16,7 @@ a:hover {
 }
 
 header {
-    background-color: #00529B;
+    background-color: gold;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -103,7 +103,7 @@ section:nth-of-type(odd) {
 }
 
 section:nth-of-type(even) {
-    background-color: #FFFFFF;
+    background-color: ligh-blue;
 }
 
 /* White color for the body and main sections */
